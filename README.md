@@ -108,7 +108,7 @@ In this step, we will create a controller that keeps track of the book collectio
 * Create a variable called `books` that equals an empty array.
   * The `books` variable will keep track of all our books. A book will be an object that has an `id`, `title`, and `author` property.
 * Create a variable called `id` that equals `0`.
-  * After a creation of a book, we will increment this by `1` to insure no books have the same `id`.
+  * After a creation of a book, we will increment this by `1` to ensure no books have the same `id`.
 * Use `module.exports` to export an object.
 * Open `server/index.js`.
 * Require the books controller at the top of `server/index.js` in a variable called `bc`.
